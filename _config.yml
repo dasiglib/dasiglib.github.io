@@ -1,0 +1,28 @@
+title: Data Analysis and Services Interest Group 
+email: dasigteam@gmail.com
+description: >
+  DASIG is a communication network to help librarians connect with learning resources, share insights, and further their skills and knowledge with data.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Theme settings
+theme: minima
+minima:
+  social_links:
+    twitter: dasigteam
+    github: dasiglib
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
